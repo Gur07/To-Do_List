@@ -1,0 +1,85 @@
+
+.to-do-list{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+    margin-top: 5rem;
+}
+h1{
+    font-size: 4rem;
+}
+button{
+    font-size: 1rem;
+    font-weight: bold;
+    /* padding: 0.25rem;
+    margin: .25rem; */
+    color: white;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.5s ease;
+
+}
+
+.addbutton{
+    background-color: rgba(36, 192, 44, 0.845);
+    font-size: 1rem;
+    padding: 10px;
+    margin-left: 10px;
+    min-width: 5rem;
+}
+.addbutton:hover{
+    background-color: rgba(13, 147, 19, 0.845);
+}
+
+.delbutton{
+    background-color:rgb(253, 73, 73);
+}
+.delbutton:hover{
+    background-color:rgb(245, 39, 39);
+}
+
+.moveup{
+    background-color:rgb(73, 205, 253);
+}
+.moveup:hover{
+    background-color:rgb(28, 188, 247);
+}
+
+.movedown{
+    background-color:rgb(73, 205, 253);
+}
+.movedown:hover{
+    background-color:rgb(28, 188, 247);
+}
+input{
+    font-size: 1rem;
+    padding: 10px;
+    border: 2px solid lightgray;
+    border-radius: 5px;
+    color: black;
+}
+ol{
+    padding: 0;
+
+}
+li{
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding: 15px;
+    background-color: beige;
+    margin-bottom: 10px;
+    border: 2px solid ;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+.text{
+    flex:1
+}
+.delbutton, .moveup, .movedown{
+    padding: 8px 12px;
+    font-size: 1rem;
+    margin-left: 10px;
+}
